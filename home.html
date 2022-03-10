@@ -1,159 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <link rel="icon" type="image/x-icon" href="https://apgdidyougetsniped.github.io/APG%20LOGO%20(Better%20Quality).png">
-<title>Advanced Player Guild</title>
-<meta name="description" content="Join APG Today!"
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NV7VN6MB4C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NV7VN6MB4C');
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-<style type="text/css">
-#overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000;
-filter:alpha(opacity=70);
--moz-opacity:0.7;
--khtml-opacity: 0.7;
-opacity: 0.7;
-z-index: 100;
-display: none;
-}
-.cnt223 a{
-text-decoration: none;
-}
-.popup{
-width: 100%;
-margin: 0 auto;
-display: none;
-position: fixed;
-z-index: 101;
-}
-.cnt223{
-min-width: 600px;
-width: 600px;
-min-height: 150px;
-margin: 100px auto;
-background: #f3f3f3;
-position: relative;
-z-index: 103;
-padding: 15px 35px;
-border-radius: 5px;
-box-shadow: 0 2px 5px #000;
-}
-.cnt223 p{
-clear: both;
-    color: #555555;
-    /* text-align: justify; */
-    font-size: 20px;
-    font-family: sans-serif;
-}
-.cnt223 p a{
-color: #d91900;
-font-weight: bold;
-}
-.cnt223 .x{
-float: right;
-height: 35px;
-left: 22px;
-position: relative;
-top: -25px;
-width: 34px;
-}
-.cnt223 .x:hover{
-cursor: pointer;
-}
-</style>
-<script type='text/javascript'>
-$(function(){
-var overlay = $('<div id="overlay"></div>');
-overlay.show();
-overlay.appendTo(document.body);
-$('.popup').show();
-$('.close').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-
-
- 
-
-$('.x').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-});
+  <script type="text/javascript">
+alert("Hello world");
 </script>
-<div class='popup'>
-<div class='cnt223'>
-<h1>Important Notice</h1>
-<p>
-We were affected by the fire next door and will remain closed until further notice.
-<br/>
-<br/>
-<a href='' class='close'>Close</a>
-</p>
-</div>
-</div>
+ <title>jQuery UI Dialog - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+  </script>
 </head>
 <body>
-    <div class="popup">
-        <button id="close">&times;</button>
-        <h2><span style="color: #ecf0f1;">Important Notice</span></h2>
-        <p><span style="color: #ecf0f1;">APG is recruiting! If you would like to join a squad please consider [APG]!</span></p>
-        <a href="https://apgdidyougetsniped.github.io/joinapg">JOIN [APG]</a>
-    </div>
-    <!--Script-->
-    <script type="text/javascript">
-window.addEventListener("load", function(){
-    setTimeout(
-        function open(event){
-            document.querySelector(".popup").style.display = "block";
-        },
-        2000 
-    )
-});
-
-
-document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
-});
-    </script>
-      
-      
-      
-      <div class="sidenav">
-        <a href="https://apgdidyougetsniped.github.io/">Home Page</a>
-        <a href="https://apgdidyougetsniped.github.io/aboutapg">About [APG]</a>
-       <a href="https://apgdidyougetsniped.github.io/joinapg">Join [APG]</a>
-       <a href="https://apgdidyougetsniped.github.io/articleinterview">Articles and Interviews</a>
-      <a href="https://apgdidyougetsniped.github.io/youtubevideos/">Youtube Videos</a>
-      <p><span style="font-family: 'times new roman', times, serif;"><!--CONTENT ON THE PAGE--></span></p>
-      <div class="content">
-       <h2><span style="font-family: 'times new roman', times, serif;"><strong><img src="https://apgdidyougetsniped.github.io/APG%20LOGO%20(Better%20Quality).png" alt="[APG] Logo" width="391" height="391" /></strong></span><span style="font-family: 'times new roman', times, serif;"><strong></strong></span></h2>
-      <hr />
-      <p><a href="https://stats.warbrokers.io/squads/APG" target="_blank" rel="noopener">[APG] Squad Stats Link</a></p>
-      <p><button onclick="myFunction()">Version Info</button></p>
-      <p>
-      <script>
-      function myFunction() {
-        alert("This Website is Currently Running Version 1.2");
-      }
-      </script>
-      </p>
-      </div>
-    
+ 
+<div id="dialog" title="Basic dialog">
+  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+ 
+ 
 </body>
 </html>
+  
+  <meta http-equiv="refresh" content="1.2; URL=apgdidyougetsniped.github.io/index" />
