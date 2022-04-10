@@ -1,8 +1,10 @@
 
 <div id="dialog" title="New Notification!"> 
-	<p><span style="font-family: 'times new roman', times, serif;">[APG] is Recruiting!</span></p>
-<p><span style="font-family: 'times new roman', times, serif;">If you are interested please click here: <a href="https://apgdidyougetsniped.github.io/joinapg" target="_blank" rel="noopener">click me</a></span></p>
+	<p><span style="font-family: 'times new roman', times, serif;"><strong>We Have A New Member!</strong></span>
+<br /><span style="font-family: 'times new roman', times, serif;"><strong>[APG] BaconErie!</strong></span>
+<br /><a href="https://stats.warbrokers.io/players/i/5f6a361ad142af5163816e4d" target="_blank" rel="noopener"><span style="font-family: 'times new roman', times, serif;">Stats Link</span></a></p>
 	</div>
+		
 
 
  <!-- Global site tag (gtag.js) - Google Analytics -->
